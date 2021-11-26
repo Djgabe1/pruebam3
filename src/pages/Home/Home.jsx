@@ -12,7 +12,7 @@ import Carregar from '../../components/carregar/Carregar'
 import axios from 'axios'
 
 
-export default function Home() {
+export default function Home({filtroCores, filtroTallas}) {
     const [Article, setArticle] = useState([]);
 
     useEffect(()=>{
@@ -34,6 +34,7 @@ export default function Home() {
                    <Sidebar />
                     <div className="rigthbar">
                         <div className="rigthbarWrapper">
+
                             {Article.map(a=>(
                             <Rigthbar key={a.id} article={a} className='rigthbarItem' />
                             ))}
