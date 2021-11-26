@@ -1,0 +1,16 @@
+
+
+.buttontallas{
+  width: 40px;  
+  height: 40px;
+  margin: 5px;
+  background: transparent;
+  border: solid 2px #CACFD2 ;
+  cursor: pointer;
+  color: #CACFD2;
+}
+
+.buttontallas:focus{
+    border: solid 2px #37D6C7;
+    color: #000;
+}

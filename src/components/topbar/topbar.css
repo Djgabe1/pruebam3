@@ -1,0 +1,12 @@
+.topbarContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.topbarLeft{
+    margin-left: 9%;
+}
+
+.topbarRight{
+    margin-right: 11%;
+}

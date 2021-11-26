@@ -1,0 +1,21 @@
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.order{
+    margin-right: 11%;
+}
+.TitleContainer{
+    font-size: 45px;
+    margin: 0% 9%;
+    font-family: 'M PLUS 1', sans-serif;
+}
+
+@media (max-width: 1000px) {
+    .headerContainer{
+        display: flex;
+        justify-content: center;
+    }
+}
